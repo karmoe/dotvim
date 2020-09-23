@@ -135,6 +135,9 @@ call plug#begin('~/.vim/bundle')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
 
+    " ---------- Editing functionality ----------
+    Plug 'tpope/vim-commentary'
+
     " ---------- Syntax highlighting ----------
     Plug 'ekalinin/Dockerfile.vim'
 
