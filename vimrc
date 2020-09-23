@@ -48,7 +48,7 @@ set nojoinspaces
 " Little bit fancier listchars
 set listchars=eol:¬,tab:\→\ ,trail:~,extends:>,precedes:<,nbsp:•
 " Show visual indicators for tabs, spaces and EOL characters
-" set list 
+" set list
 
 " Time (ms) before swap file is written to disk when idle
 set updatetime=1000
@@ -132,6 +132,9 @@ end
 
 " ------------------------- Plugins -------------------------
 call plug#begin('~/.vim/bundle')
+    " ---------- Interface ----------
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
 
     " ---------- Color schemes ----------
     Plug 'NLKNguyen/papercolor-theme'
