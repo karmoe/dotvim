@@ -139,6 +139,9 @@ call plug#begin('~/.vim/bundle')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
 
+    " ---------- Syntax highlighting ----------
+    Plug 'ekalinin/Dockerfile.vim'
+
     " ---------- Color schemes ----------
     Plug 'NLKNguyen/papercolor-theme'
     Plug 'morhetz/gruvbox'
