@@ -6,6 +6,8 @@ set ffs=unix,dos
 " is annoying to hit on a non-US keyboard
 let mapleader=","
 
+" Syntax highlighting
+syntax on
 " Always show the status line
 set laststatus=2
 " Show the line and column number of cursor position
@@ -127,3 +129,19 @@ if has("autocmd")
     " pressed a key for the time specified by `updatetime`.
     au CursorHold * checktime
 end
+
+" ------------------------- Plugins -------------------------
+call plug#begin('~/.vim/bundle')
+
+    " ---------- Color schemes ----------
+    Plug 'NLKNguyen/papercolor-theme'
+    Plug 'morhetz/gruvbox'
+call plug#end()
+
+if $THEME == 'light'
+    set background=light
+    colorscheme PaperColor
+else
+    set background=dark
+    colorscheme gruvbox
+endif
