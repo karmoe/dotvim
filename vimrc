@@ -140,6 +140,7 @@ call plug#begin('~/.vim/bundle')
     Plug 'tpope/vim-commentary'
     Plug 'dense-analysis/ale'
     Plug 'AndrewRadev/splitjoin.vim'
+    Plug 'wellle/targets.vim'
 
     " ---------- Syntax highlighting ----------
     Plug 'ekalinin/Dockerfile.vim', { 'for': 'Dockerfile' }
