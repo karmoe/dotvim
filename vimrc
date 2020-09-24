@@ -152,6 +152,7 @@ call plug#begin('~/.vim/bundle')
     " ---------- Syntax highlighting ----------
     Plug 'ekalinin/Dockerfile.vim', { 'for': 'Dockerfile' }
     Plug 'StanAngeloff/php.vim', { 'for': 'php' }
+    Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
     Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
     Plug 'rhysd/vim-gfm-syntax', { 'for': 'markdown' }
 
