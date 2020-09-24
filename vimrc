@@ -140,6 +140,7 @@ call plug#begin('~/.vim/bundle')
     Plug 'junegunn/fzf.vim'
 
     Plug 'airblade/vim-gitgutter'
+    Plug 'moll/vim-node'
 
     " ---------- Editing functionality ----------
     Plug 'editorconfig/editorconfig-vim'
