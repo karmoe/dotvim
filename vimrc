@@ -128,6 +128,10 @@ end
 
 " ------------------------- Plugins -------------------------
 call plug#begin('~/.vim/bundle')
+    " ---------- Functional ----------
+    Plug 'tpope/vim-fugitive'
+    Plug 'ludovicchabant/vim-gutentags'
+
     " ---------- Interface ----------
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
@@ -135,7 +139,6 @@ call plug#begin('~/.vim/bundle')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
 
-    Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
 
     " ---------- Editing functionality ----------
