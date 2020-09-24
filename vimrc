@@ -142,6 +142,7 @@ call plug#begin('~/.vim/bundle')
 
     " ---------- Syntax highlighting ----------
     Plug 'ekalinin/Dockerfile.vim', { 'for': 'Dockerfile' }
+    Plug 'StanAngeloff/php.vim', { 'for': 'php' }
 
     " ---------- Color schemes ----------
     Plug 'NLKNguyen/papercolor-theme'
