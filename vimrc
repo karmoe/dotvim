@@ -131,6 +131,8 @@ call plug#begin('~/.vim/bundle')
     " ---------- Functional ----------
     Plug 'tpope/vim-fugitive'
     Plug 'ludovicchabant/vim-gutentags'
+    Plug 'tpope/vim-repeat'
+    Plug 'tpope/vim-surround'
 
     " ---------- Interface ----------
     Plug 'vim-airline/vim-airline'
