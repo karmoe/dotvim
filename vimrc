@@ -141,10 +141,12 @@ call plug#begin('~/.vim/bundle')
     Plug 'dense-analysis/ale'
     Plug 'AndrewRadev/splitjoin.vim'
     Plug 'wellle/targets.vim'
+    Plug 'Quramy/tsuquyomi', { 'for': 'typescript' }
 
     " ---------- Syntax highlighting ----------
     Plug 'ekalinin/Dockerfile.vim', { 'for': 'Dockerfile' }
     Plug 'StanAngeloff/php.vim', { 'for': 'php' }
+    Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
 
     " ---------- Color schemes ----------
     Plug 'NLKNguyen/papercolor-theme'
