@@ -135,6 +135,9 @@ call plug#begin('~/.vim/bundle')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
 
+    Plug 'tpope/vim-fugitive'
+    Plug 'airblade/vim-gitgutter'
+
     " ---------- Editing functionality ----------
     Plug 'editorconfig/editorconfig-vim'
     Plug 'tpope/vim-commentary'
