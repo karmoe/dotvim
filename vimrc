@@ -150,6 +150,7 @@ call plug#begin('~/.vim/bundle')
     Plug 'ekalinin/Dockerfile.vim', { 'for': 'Dockerfile' }
     Plug 'StanAngeloff/php.vim', { 'for': 'php' }
     Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
+    Plug 'rhysd/vim-gfm-syntax', { 'for': 'markdown' }
 
     " ---------- Color schemes ----------
     Plug 'NLKNguyen/papercolor-theme'
