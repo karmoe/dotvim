@@ -150,10 +150,8 @@ call plug#begin('~/.vim/bundle')
     Plug 'Quramy/tsuquyomi', { 'for': 'typescript' }
 
     " ---------- Syntax highlighting ----------
+    Plug 'sheerun/vim-polyglot'
     Plug 'ekalinin/Dockerfile.vim', { 'for': 'Dockerfile' }
-    Plug 'StanAngeloff/php.vim', { 'for': 'php' }
-    Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
-    Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
     Plug 'rhysd/vim-gfm-syntax', { 'for': 'markdown' }
 
     " ---------- Color schemes ----------
