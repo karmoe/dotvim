@@ -137,9 +137,10 @@ call plug#begin('~/.vim/bundle')
 
     " ---------- Editing functionality ----------
     Plug 'tpope/vim-commentary'
+    Plug 'dense-analysis/ale'
 
     " ---------- Syntax highlighting ----------
-    Plug 'ekalinin/Dockerfile.vim'
+    Plug 'ekalinin/Dockerfile.vim', { 'for': 'Dockerfile' }
 
     " ---------- Color schemes ----------
     Plug 'NLKNguyen/papercolor-theme'
