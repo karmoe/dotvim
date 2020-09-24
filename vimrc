@@ -151,7 +151,10 @@ call plug#begin('~/.vim/bundle')
     Plug 'Quramy/tsuquyomi', { 'for': 'typescript' }
 
     " ---------- Syntax highlighting ----------
+    " Disable built-in 'markdown' syntax since we're using a custom one
+    let g:polyglot_disabled = ['markdown']
     Plug 'sheerun/vim-polyglot'
+
     Plug 'ekalinin/Dockerfile.vim', { 'for': 'Dockerfile' }
     Plug 'rhysd/vim-gfm-syntax', { 'for': 'markdown' }
 
