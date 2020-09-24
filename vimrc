@@ -136,6 +136,7 @@ call plug#begin('~/.vim/bundle')
     Plug 'junegunn/fzf.vim'
 
     " ---------- Editing functionality ----------
+    Plug 'editorconfig/editorconfig-vim'
     Plug 'tpope/vim-commentary'
     Plug 'dense-analysis/ale'
 
