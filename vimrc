@@ -133,7 +133,9 @@ call plug#begin('~/.vim/bundle')
     Plug 'ludovicchabant/vim-gutentags'
     Plug 'tpope/vim-repeat'
     Plug 'tpope/vim-surround'
-    Plug 'SirVer/ultisnips'
+    if v:version >= 800 && has('python3')
+        Plug 'SirVer/ultisnips'
+    endif
 
     " ---------- Interface ----------
     Plug 'vim-airline/vim-airline'
