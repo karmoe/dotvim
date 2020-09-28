@@ -133,6 +133,7 @@ call plug#begin('~/.vim/bundle')
     Plug 'ludovicchabant/vim-gutentags'
     Plug 'tpope/vim-repeat'
     Plug 'tpope/vim-surround'
+    Plug 'SirVer/ultisnips'
 
     " ---------- Interface ----------
     Plug 'vim-airline/vim-airline'
