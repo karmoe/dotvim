@@ -37,7 +37,9 @@ set shiftwidth=4
 " Insert spaces instead of literal <Tab> characters
 set expandtab
 
-" Do case-insensitive matching when pattern contains only lowercase letters
+" Perform case-insensitive matching...
+set ignorecase
+" ...except when the search pattern contains uppercase characters
 set smartcase
 " Minimal number of screen lines to keep above and below the cursor
 set scrolloff=3
