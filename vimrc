@@ -155,7 +155,7 @@ call plug#begin('~/.vim/bundle')
     Plug 'dense-analysis/ale'
     Plug 'AndrewRadev/splitjoin.vim'
     Plug 'wellle/targets.vim'
-    Plug 'Quramy/tsuquyomi', { 'for': 'typescript' }
+    Plug 'Quramy/tsuquyomi', { 'for': [ 'typescript', 'typescriptreact' ] }
 
     " ---------- Syntax highlighting ----------
     " Disable built-in 'markdown' syntax since we're using a custom one
