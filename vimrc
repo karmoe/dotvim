@@ -141,6 +141,7 @@ call plug#begin('~/.vim/bundle')
     if v:version >= 800 && has('python3')
         Plug 'SirVer/ultisnips'
     endif
+    Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
 
     " ---------- Interface ----------
     Plug 'vim-airline/vim-airline'
