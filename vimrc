@@ -68,6 +68,9 @@ set directory=~/.vim/swap
 " Treat :W as :w since this is a common typo
 cnoreabbrev W w
 
+" Milliseconds to wait for a keycode or mapped sequence to complete.
+set ttimeoutlen=100
+
 " ------------------------- Navigation -------------------------
 " Swap ' and ` so 'a goes to the line *and* column marked with ma
 nnoremap ' `
