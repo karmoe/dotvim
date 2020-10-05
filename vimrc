@@ -2,6 +2,11 @@ set number
 set encoding=utf8
 set ffs=unix,dos
 
+" vim hardcodes background color erasing even if the terminfo file
+" does not contain `bce`. This causes incorrect background rendering
+" when using a color scheme with a background color.
+let &t_ut=''
+
 " Use comma as leader character instead of the default '\', since the latter
 " is annoying to hit on a non-US keyboard
 let mapleader=","
