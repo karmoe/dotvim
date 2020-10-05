@@ -7,6 +7,18 @@ set ffs=unix,dos
 " when using a color scheme with a background color.
 let &t_ut=''
 
+" Set the cursor shape for insert mode and normal mode
+" Reference:
+"   0  -> blinking block.
+"   1  -> blinking block (default).
+"   2  -> steady block.
+"   3  -> blinking underline.
+"   4  -> steady underline.
+"   5  -> blinking bar (xterm).
+"   6  -> steady bar (xterm).
+let &t_SI="\e[6 q"
+let &t_EI="\e[2 q"
+
 " Use comma as leader character instead of the default '\', since the latter
 " is annoying to hit on a non-US keyboard
 let mapleader=","
