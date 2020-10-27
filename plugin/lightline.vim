@@ -28,3 +28,9 @@ if has("autocmd")
     " See: https://github.com/itchyny/lightline.vim/issues/484
     autocmd BufWinEnter *.* silent call lightline#update()
 end
+
+let s:palette = g:lightline#colorscheme#powerline#palette
+let s:palette.tabline.tabsel = [[ 'gray2', 'gray8' ]]
+let s:palette.tabline.left = [[ 'gray6', 'gray1' ]]
+let s:palette.tabline.middle = [[ 'gray2', 'gray1' ]]
+let g:lightline#colorscheme#powerline#palette = lightline#colorscheme#fill(s:palette)
