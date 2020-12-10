@@ -1,5 +1,5 @@
 let g:lightline = {
-    \ 'colorscheme': 'powerline',
+    \ 'colorscheme': 'ayu_dark',
     \ 'active': {
     \   'left': [
     \       [ 'mode', 'paste' ],
