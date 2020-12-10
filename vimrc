@@ -187,12 +187,18 @@ call plug#begin('~/.vim/bundle')
     " ---------- Color schemes ----------
     Plug 'NLKNguyen/papercolor-theme'
     Plug 'morhetz/gruvbox'
+    Plug 'ayu-theme/ayu-vim'
 call plug#end()
+
+" Enable truecolor support
+set termguicolors
 
 if $THEME == 'light'
     set background=light
-    colorscheme PaperColor
+    let ayucolor="light"
+    colorscheme ayu
 else
     set background=dark
-    colorscheme gruvbox
+    let ayucolor="dark"
+    colorscheme ayu
 endif
