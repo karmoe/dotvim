@@ -1,5 +1,5 @@
 let g:lightline = {
-    \ 'colorscheme': 'ayu_dark',
+    \ 'colorscheme': 'powerline',
     \ 'active': {
     \   'left': [
     \       [ 'mode', 'paste' ],
@@ -17,6 +17,10 @@ let g:lightline = {
 
 if $THEME == 'light'
     let g:lightline.colorscheme = 'PaperColor'
+endif
+
+if $THEME == 'ayu'
+    let g:lightline.colorscheme = 'ayu_dark'
 endif
 
 if has("autocmd")

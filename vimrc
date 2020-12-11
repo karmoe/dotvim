@@ -200,10 +200,12 @@ endif
 
 if $THEME == 'light'
     set background=light
-    let ayucolor="light"
-    colorscheme ayu
-else
+    colorscheme PaperColor
+elseif $THEME == 'ayu'
     set background=dark
     let ayucolor="dark"
     colorscheme ayu
+else
+    set background=dark
+    colorscheme gruvbox
 endif
