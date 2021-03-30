@@ -27,6 +27,8 @@ let mapleader=","
 syntax on
 " Always show the status line
 set laststatus=2
+" Display signs over the line numbers instead of in a separate column
+set signcolumn=number
 " Show the line and column number of cursor position
 set ruler
 " Show the search pattern matches immediately, while typing
@@ -159,6 +161,7 @@ call plug#begin('~/.vim/bundle')
         Plug 'SirVer/ultisnips'
     endif
     Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
+    Plug 'phpactor/phpactor', {'for': 'php', 'tag': '*', 'do': 'composer install --no-dev -o'}
 
     " ---------- Interface ----------
     Plug 'itchyny/lightline.vim'
