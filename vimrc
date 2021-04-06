@@ -164,6 +164,7 @@ call plug#begin('~/.vim/bundle')
     Plug 'ycm-core/YouCompleteMe'
 
     Plug 'phpactor/phpactor', {'for': 'php', 'tag': '*', 'do': 'composer install --no-dev -o'}
+    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
     " ---------- Interface ----------
     Plug 'itchyny/lightline.vim'
