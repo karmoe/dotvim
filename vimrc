@@ -194,6 +194,7 @@ call plug#begin('~/.vim/bundle')
     Plug 'NLKNguyen/papercolor-theme'
     Plug 'morhetz/gruvbox'
     Plug 'ayu-theme/ayu-vim'
+    Plug 'rafi/awesome-vim-colorschemes'
 call plug#end()
 
 if exists('+termguicolors')
