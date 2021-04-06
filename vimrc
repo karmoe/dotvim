@@ -213,5 +213,6 @@ elseif $THEME == 'ayu'
     colorscheme ayu
 else
     set background=dark
+    let g:gruvbox_contrast_dark = "hard"
     colorscheme gruvbox
 endif
