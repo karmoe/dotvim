@@ -161,6 +161,8 @@ call plug#begin('~/.vim/bundle')
         Plug 'SirVer/ultisnips'
     endif
     Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
+    Plug 'ycm-core/YouCompleteMe'
+
     Plug 'phpactor/phpactor', {'for': 'php', 'tag': '*', 'do': 'composer install --no-dev -o'}
 
     " ---------- Interface ----------
